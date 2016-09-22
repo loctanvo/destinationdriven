@@ -1,0 +1,96 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+.welcome{
+    background-image: url("images/background-full.jpeg");
+    background-size: cover;
+    background-position: center bottom;
+    color: #FFF;
+}
+
+.welcome-text {
+    max-width: 300px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+.welcome .lead {
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    margin-top: 5vh;
+}
+
+.full-height {
+    height:100vh;
+    min-height: 100vh;
+    min-height: 100%;
+}
+.middle-wrapper {
+    display: table;
+}
+
+.middle-wrapper .vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.continue i{
+    transition: all .2s ease-in-out;
+}
+
+.continue i:hover{
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+.continue a {
+    color: #FFF;
+}
+
+.about .text {
+    margin-top: 20vh;
+    background-color: whitesmoke;
+    padding: 30px;
+    border: 10px solid #fff;
+}
+
+.text {
+    letter-spacing: 1px;
+}
+
+.text h2 {
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.text .separator{
+    border-top: 5px solid;
+    width: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text .philosophy-text{
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #AFAFAF;
+}
+
+.philosophy-image{
+    position:absolute;
+    z-index: -1;
+}
+
+.philosophy-image img{
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 40vh;
+    border: 10px solid #fff;
+}
