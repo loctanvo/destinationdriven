@@ -53,11 +53,16 @@ h1{
     color: #FFF;
 }
 
+.about{
+    background-image: url("images/city.jpg");
+    background-size: cover;
+    background-position: center bottom;   
+}
+
 .about .text {
     margin-top: 20vh;
-    background-color: whitesmoke;
-    padding: 30px;
-    border: 10px solid #fff;
+    background-color: #FFF;
+    padding: 40px;
 }
 
 .text {
