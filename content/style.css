@@ -1,12 +1,12 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1{
+h1 {
     font-family: 'Lobster', cursive;
 }
 
-.welcome{
+.welcome {
     background-image: url("images/background-full.jpeg");
     background-size: cover;
     background-position: center bottom;
@@ -27,10 +27,11 @@ h1{
 }
 
 .full-height {
-    height:100vh;
+    height: 100vh;
     min-height: 100vh;
     min-height: 100%;
 }
+
 .middle-wrapper {
     display: table;
 }
@@ -40,11 +41,11 @@ h1{
     vertical-align: middle;
 }
 
-.continue i{
+.continue i {
     transition: all .2s ease-in-out;
 }
 
-.continue i:hover{
+.continue i:hover {
     font-weight: bold;
     transform: scale(1.5);
 }
@@ -53,10 +54,10 @@ h1{
     color: #FFF;
 }
 
-.about{
+.about {
     background-image: url("images/city.jpg");
     background-size: cover;
-    background-position: center bottom;   
+    background-position: right bottom;
 }
 
 .about .text {
@@ -74,26 +75,26 @@ h1{
     font-weight: 700;
 }
 
-.text .separator{
+.text .separator {
     border-top: 5px solid;
     width: 30px;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.text .philosophy-text{
+.text .philosophy-text {
     letter-spacing: 2px;
     font-size: 0.8rem;
     text-transform: uppercase;
     color: #AFAFAF;
 }
 
-.philosophy-image{
-    position:absolute;
+.philosophy-image {
+    position: absolute;
     z-index: -1;
 }
 
-.philosophy-image img{
+.philosophy-image img {
     max-width: 80%;
     max-height: 80%;
     margin-top: 40vh;
